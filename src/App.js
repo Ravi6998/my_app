@@ -9,8 +9,8 @@ class App extends Component {
         <div className="Age-label">
           your age: <span>{this.props.age}</span>
         </div>
-        <button onClick={this.props.onAgeUp}>Age UP</button>
-        <button onClick={this.props.onAgeDown}>Age Down</button>
+        <button onClick={this.props.onAgeUp}>Age Down</button>
+        <button onClick={this.props.onAgeDown}>Age Up</button>
       </div>
     );
   }
